@@ -7,9 +7,9 @@
  */
 var fs = require('fs');
 var archiver = require('archiver');
-var id = require('./artifact/index.js');
+var id = require(process.cwd() + '/artifact/index.js');
 
-var fn = (__dirname + '/artifact_'+(String(id.id()).toLowerCase())+'.zip');
+var fn = (process.cwd() + '/artifact_'+(String(id.id()).toLowerCase())+'.zip');
 
 console.log("Creating "+ fn);
 
