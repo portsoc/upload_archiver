@@ -1,0 +1,11 @@
+{
+  "name": "upload_archiver",
+  "version": "1.0.0",
+  "description": "Creates an upload archive for coursework submission.",
+  "main": "archiver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rich Boakes <rjb@boakes.org> (http://boakes.org/)",
+  "license": "ISC"
+}
